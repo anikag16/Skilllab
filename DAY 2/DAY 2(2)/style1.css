@@ -1,0 +1,29 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    padding:20px;
+}
+.title{
+    margin-bottom:10px;
+}
+.timetable{
+    width:90%;
+    margin:0 auto;
+    text-align:center;
+    border-collapse:collapse;
+    background-color: white; 
+}
+.timetable th{
+    border:1px solid black;
+    padding:12px;
+    text-align: center;
+    background-color:coral;
+}
+.timetable td{
+    border:1px solid black;
+    padding:12px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}

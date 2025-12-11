@@ -1,0 +1,33 @@
+#div1{
+      height:150px;
+    width:150px;
+    background-color:aqua;
+    padding:10px;
+    margin:5px;
+    border:1px solid black;
+    float:left;
+
+}
+#div2{
+      height:150px;
+    width:150px;
+    background-color:azure;
+    padding:10px;
+    margin:5px;
+    border:1px solid black;
+    float:left;
+}
+#div3{
+      height:150px;
+    width:150px;
+    background-color:beige;
+    padding:10px;
+    margin:5px;
+    border:1px solid black;
+    float:left;
+}
+.container{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}

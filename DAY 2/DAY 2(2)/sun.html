@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sun.css">
+</head>
+<body>
+    <div class="scene">
+        <div class="sun"></div>
+    </div>
+    <style>
+        body{
+            padding:0;
+            margin:0;
+            justify-content: center;
+            display:flex;
+            height:100vh;
+            align-items:center;
+            background-color: skyblue;
+        }
+        .scene{
+            height:100%;
+            width:100%;
+            position:relative;
+            background:linear-gradient(to top,skyblue,white);
+            animation:skychange 8s infinite ease-in-out;
+        }
+        .sun{
+            position:absolute;
+            height:120px;
+            width:120px;
+            border-radius: 50%;
+            background: yellow;
+            left:50%;
+            top:100%;
+            transform: translateX(-50%);
+            animation:sunrise 8s infinite ease-in-out forwards;
+         }
+         @keyframes sunrise{
+            0%{
+                top:100%;
+                background:yellow;
+            }
+            40%{
+                top:20%;
+                background:white;
+            }
+            70%{
+                top:60%;
+                background:orange;
+             }
+             100%{
+                top:100%;
+                background:red;
+             }
+         }
+         @keyframes skychange{
+            0%{
+                background:linear-gradient(to top,red,white)
+            }
+            40%{
+                background:linear-gradient(to top,white,skyblue)
+            }
+            70%{
+                background:linear-gradient(to top,orange,pink)
+            }
+            100%{
+                background:linear-gradient(to top,rgb(129, 9, 9),white)
+            }
+         }
+    </style>
+</body>
+</html>

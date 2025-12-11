@@ -1,0 +1,32 @@
+.a{
+    background-color: bisque;
+}
+#box1{
+    height:150px;
+    width:150px;
+    background-color:red;
+    padding:10px;
+    border-radius:50%;
+    border:1px solid black;
+    float:left;
+    position:relative;
+}
+#box2{
+    height:150px;
+    width:150px;
+    border:1px solid black;
+    padding:10px;
+    border-radius:50%;
+    background-color:yellow;
+    float: left;
+    position:fixed;
+}
+#box3{
+    height:150px;
+    width:150px;
+    border:1px solid black;
+    padding:10px;
+    border-radius: 50%;
+    background-color: green;
+    float:left;
+}
